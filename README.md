@@ -86,10 +86,10 @@ Open PowerBI/Don_ChuyBI.pbix to interact with the executive dashboard.
 
 ## 👤 Author
 
-**Oscar Jiram**  
+**Oscar Castro**  
 *Data Analyst & Analytics Engineer*  
 
 Specialized in designing end-to-end data architectures—from robust Python/SQL ETL pipelines to high-impact Business Intelligence dashboards. Focused on transforming complex operational data into strategic assets for data-driven decision-making. Actively exploring 100% remote roles to drive data strategy on a global scale.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU_USUARIO)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oscar-castro-a7932a211)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Oscar-Jiram)
