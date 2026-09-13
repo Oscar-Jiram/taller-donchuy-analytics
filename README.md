@@ -33,21 +33,18 @@ Automotive repair centers often generate rich operational data across clients, v
 
 The project is built on a decoupled architecture, ensuring scalability, maintainability, and seamless debugging across the data lifecycle.
 
-```text
-[ Raw Data Inputs ] 
-        │
-        ▼
-[ Modular Python ETL ] ──► Data validation, transformation, and event logging (`main.py`)
-        │
-        ▼
-[ MySQL Database ] ────► Relational 3NF Schema (`CLIENTE`, `VEHICULO`, `SERVICIO`, `REPARACION`)
-        │
-        ▼
-[ Analytical SQL Views ] ─► Dimensional Data Mart tailored for BI ingestion
-        │
-        ▼
-[ Executive Power BI ] ──► Interactive Reporting, DAX Measures & KPI Tracking
-
+```mermaid
+graph TD
+    A[Raw Data Inputs] -->|Extraction| B[Modular Python ETL]
+    B -->|Data validation, transformation & event logging| C[(MySQL Database)]
+    C -->|Relational 3NF Schema| D[(Analytical SQL Views)]
+    D -->|Dimensional Data Mart tailored for BI| E[Executive Power BI]
+    E -->|Interactive Reporting, DAX Measures & KPI Tracking| F([Business Insights])
+    
+    style B fill:#3776AB,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#4479A1,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#4479A1,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#F2C811,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ## 🔑 Key Analytics & Insights Derived
