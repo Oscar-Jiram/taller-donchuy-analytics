@@ -48,6 +48,8 @@ The project is built on a decoupled architecture, ensuring scalability, maintain
         ▼
 [ Executive Power BI ] ──► Interactive Reporting, DAX Measures & KPI Tracking
 
+```
+
 ## 🔑 Key Analytics & Insights Derived
 Macro Financial Health: Continuous tracking of Total Revenue ($145.86K), Total Completed Services (50), and Average Ticket Size ($2.92K).
 
