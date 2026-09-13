@@ -61,26 +61,6 @@ Customer Intelligence: Identification and ranking of VIP clients by total lifeti
 
 --
 
-## 📂 Repository Structure
-
-DonChuy/
-├── config/             # Connection configurations & environment variables
-├── logs/               # Automated pipeline execution logs for debugging
-├── models/             # Analytical SQL views & database schema scripts
-│   ├── v_fact_reparaciones.sql
-│   ├── v_kpi_clientes.sql
-│   └── v_kpi_servicios.sql
-├── PowerBI/            # Power BI Desktop report files (.pbix)
-├── Snapshots/          # High-resolution documentation images & visual assets
-├── src/                # Core ETL pipeline Python modules (Extraction & Loading)
-│   └── pipeline.py
-├── .gitignore          # Git exclusion rules (.venv, local credentials)
-├── main.py             # ETL pipeline execution entry point
-├── README.md           # Project documentation
-└── requirements.txt    # Python dependencies (mysql-connector-python, pandas, etc.)
-
---
-
 ## 🚀 Getting Started (Local Deployment)
 
 ### 1.-Clone the repository:
