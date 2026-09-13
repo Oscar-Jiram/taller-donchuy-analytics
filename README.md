@@ -29,22 +29,24 @@ Automotive repair centers often generate rich operational data across clients, v
 
 ---
 
-## 🏗️ Technical Architecture & Data Flow
+## 📂 Repository Structure
 
-The project is built on a decoupled architecture, ensuring scalability, maintainability, and seamless debugging across the data lifecycle.
-
-```mermaid
-graph TD
-    A[Raw Data Inputs] -->|Extraction| B[Modular Python ETL]
-    B -->|Data validation, transformation & event logging| C[(MySQL Database)]
-    C -->|Relational 3NF Schema| D[(Analytical SQL Views)]
-    D -->|Dimensional Data Mart tailored for BI| E[Executive Power BI]
-    E -->|Interactive Reporting, DAX Measures & KPI Tracking| F([Business Insights])
-    
-    style B fill:#3776AB,stroke:#fff,stroke-width:2px,color:#fff
-    style C fill:#4479A1,stroke:#fff,stroke-width:2px,color:#fff
-    style D fill:#4479A1,stroke:#fff,stroke-width:2px,color:#fff
-    style E fill:#F2C811,stroke:#333,stroke-width:2px,color:#000
+```text
+DonChuy/
+├── config/             # Connection configurations & environment variables
+├── logs/               # Automated pipeline execution logs for debugging
+├── models/             # Analytical SQL views & database schema scripts
+│   ├── v_fact_reparaciones.sql
+│   ├── v_kpi_clientes.sql
+│   └── v_kpi_servicios.sql
+├── PowerBI/            # Power BI Desktop report files (.pbix)
+├── Snapshots/          # High-resolution documentation images & visual assets
+├── src/                # Core ETL pipeline Python modules (Extraction & Loading)
+│   └── pipeline.py
+├── .gitignore          # Git exclusion rules (.venv, local credentials)
+├── main.py             # ETL pipeline execution entry point
+├── README.md           # Project documentation
+└── requirements.txt    # Python dependencies (mysql-connector-python, pandas, etc.)
 ```
 
 ## 🔑 Key Analytics & Insights Derived
