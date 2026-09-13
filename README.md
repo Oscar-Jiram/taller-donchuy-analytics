@@ -61,7 +61,7 @@ Customer Intelligence: Identification and ranking of VIP clients by total lifeti
 
 --
 
-##📂 Repository Structure
+## 📂 Repository Structure
 
 DonChuy/
 ├── config/             # Connection configurations & environment variables
@@ -81,7 +81,7 @@ DonChuy/
 
 --
 
-##🚀 Getting Started (Local Deployment)
+## 🚀 Getting Started (Local Deployment)
 
 ### 1.-Clone the repository:
 git clone [https://github.com/Oscar-Jiram/taller-donchuy-analytics.git](https://github.com/Oscar-Jiram/taller-donchuy-analytics.git)
