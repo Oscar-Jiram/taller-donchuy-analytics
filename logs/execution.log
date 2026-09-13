@@ -1,0 +1,14 @@
+2026-09-08 01:03:06,045 [INFO] 🚀 Iniciando ejecución del pipeline modular ETL...
+2026-09-08 01:03:06,251 [INFO] 🧹 Tablas limpiadas correctamente.
+2026-09-08 01:03:06,270 [INFO] ✅ Tabla SERVICIO poblada con 50 registros.
+2026-09-08 01:03:06,283 [INFO] ✅ Tabla CLIENTE poblada con 50 registros.
+2026-09-08 01:03:06,290 [INFO] ✅ Tabla VEHICULO poblada con 50 registros.
+2026-09-08 01:03:06,301 [INFO] ✅ Tabla REPARACION poblada con 50 registros (Restricciones 1:1 respetadas).
+2026-09-08 01:03:06,301 [INFO] 🎉 Pipeline completado con éxito.
+2026-09-08 02:47:15,767 [INFO] 🚀 Iniciando ejecución del pipeline modular ETL...
+2026-09-08 02:47:15,981 [INFO] 🧹 Tablas limpiadas correctamente.
+2026-09-08 02:47:15,998 [INFO] ✅ Tabla SERVICIO poblada con 50 registros.
+2026-09-08 02:47:16,009 [INFO] ✅ Tabla CLIENTE poblada con 50 registros.
+2026-09-08 02:47:16,018 [INFO] ✅ Tabla VEHICULO poblada con 50 registros.
+2026-09-08 02:47:16,028 [INFO] ✅ Tabla REPARACION poblada con 50 registros (Restricciones 1:1 respetadas).
+2026-09-08 02:47:16,029 [INFO] 🎉 Pipeline completado con éxito.
